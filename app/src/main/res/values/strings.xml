@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Izbela</string>
+
+    <string name="chat_list_title">Chats</string>
+    <string name="chat_create_title">Create chat</string>
+</resources>

@@ -1,0 +1,34 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+    </style>
+
+    <style name="FullScreenDialog" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <style name="Toolbar" parent="Widget.MaterialComponents.Toolbar.Primary">
+        <item name="android:minHeight">?actionBarSize</item>
+        <item name="android:theme">@style/ToolbarOverlay</item>
+        <item name="android:popupTheme">@style/PopUpOverlay</item>
+    </style>
+
+    <style name="AppBar" parent="Widget.MaterialComponents.AppBarLayout.Primary"/>
+
+    <style name="ToolbarWithBackButton" parent="Toolbar">
+        <item name="navigationIcon">@drawable/ic_arrow_back_white</item>
+    </style>
+
+</resources>
